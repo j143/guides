@@ -1,4 +1,4 @@
-title: Open Source Guides
+title: Engineering Guides
 description: Learn how to launch and grow your project.
 
 exclude:
@@ -28,7 +28,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/cards/default.png
+      image: /assets/images/cards/best-practices.png
   - scope:
       path: ""
       type: articles
