@@ -3,7 +3,7 @@ lang: en
 title: 5G Intro
 description: 5G resources and links
 class: building
-order: 2
+order: 3
 # image: /assets/images/cards/beginner.png
 related:
   - finding
@@ -11,7 +11,9 @@ related:
 ---
 
 ## Telco 5G Development
-[Back to the Top](#table-of-contents)
+
+State of the 5G development.
+
 
  <img src="https://user-images.githubusercontent.com/45159366/105409952-14881380-5be6-11eb-84fc-b07db69698ed.png">
 
@@ -24,6 +26,8 @@ related:
 
 
 ## Telco 5G Learning Resources
+
+Learning resources by hardware and software providers for the 5G
 
 [HPE(Hewlett Packard Enterprise) Telco Blueprints overview](https://techhub.hpe.com/eginfolib/servers/docs/Telco/Blueprints/infocenter/index.html#GUID-9906A227-C1FB-4FD5-A3C3-F3B72EC81CAB.html)
 
@@ -73,6 +77,9 @@ related:
 
 
 ## Telco 5G Tools and Frameworks
+
+Applications and framework for the 5G implementation, testing and deployment
+
 
 [Open Stack](https://www.openstack.org/) is an open source cloud platform, deployed as infrastructure-as-a-service (IaaS) to orchestrate data center operations on bare metal, private cloud hardware, public cloud resources, or both (hybrid/multi-cloud architecture). OpenStack includes advance use of virtualization & SDN for network traffic optimization to handle the core cloud-computing services of compute, networking, storage, identity, and image services.
 
