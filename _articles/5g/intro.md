@@ -2,7 +2,7 @@
 lang: en
 title: 5G Intro
 description: 5G resources and links
-class: beginners
+class: building
 order: 2
 # image: /assets/images/cards/beginner.png
 related:
