@@ -60,3 +60,7 @@ Once you have that set up, run:
 Discussions about the Open Source Guides take place on this repository's [Issues](https://github.com/j143/guides/issues) and [Pull Requests](https://github.com/j143/guides/pulls) sections. Anybody is welcome to join these conversations.
 
 Wherever possible, do not take these conversations to private channels, including contacting the maintainers directly. Keeping communication public means everybody can benefit and learn from the conversation.
+
+## How to add PAT
+
+
