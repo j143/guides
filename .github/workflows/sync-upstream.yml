@@ -35,6 +35,14 @@ jobs:
         with:
           source: ./
           destination: ./_site
+      - name: Sync upstream
+        run: bash script/sync-upstream.sh
+        env:
+          DESTINATION_BRANCH: main
+          DESTINATION_DIRECTORY: "guides"
+          DESTINATION_REPOSITORY: j143/janardhan.page
+          PAT: ${{ secrets.PAT }}
+          SOURCE_DIRECTORY: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
@@ -49,20 +57,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-  # Upstream sync job
-  sync-upstream:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.PAT }}
-      - name: Sync upstream
-        run: bash script/sync-upstream.sh
-        env:
-          DESTINATION_BRANCH: main
-          DESTINATION_DIRECTORY: "guides"
-          DESTINATION_REPOSITORY: j143/janardhan.page
-          PAT: ${{ secrets.PAT }}
-          SOURCE_DIRECTORY: ./_site
