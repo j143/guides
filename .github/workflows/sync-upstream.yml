@@ -36,7 +36,7 @@ jobs:
           source: ./
           destination: ./_site
       - name: Sync upstream
-        run: bash sync-upstream.sh
+        run: bash ./_site/sync-upstream.sh
         env:
           DESTINATION_BRANCH: main
           DESTINATION_DIRECTORY: "guides"
